@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <meta title="Plastic 101">
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Websites that give information about plastic bottles, recycling bottles, and ideas for recycling plastic bottles. ">
+    <meta name="keyword" content="ขยะขวดพลาสติก  ขวดพลาสติก หนังสือการ์ตูนความรู้ การ์ตูน  ">
+    <!-- Author -->
+    <meta name="Author" content="Shirt17">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS\HeaderSide.css">
+    <link rel="stylesheet" href="CSS\comic.css">
+    <link rel="stylesheet" href="CSS\Contents.css">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+    <title>GreenE.</title>
+</head>
+
+<body>
+    <!----------------------------------- HEADER  --------------===--------------------->
+    <div class="header">
+        <div class="left-section">
+            <div>
+                <button class="hamberger" id="hamberger" onclick="hamberger()"> <img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/hamburger-menu-icon.svg"></button>
+            </div>
+            <div id="iconLogo" class="iconLogo">
+                <div>
+                    <img class="icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+                </div>
+                <div>
+                    <p class="logo">GreenE.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!--------------------------------- SIDE-BAR  --------------------------------------->
+    <nav class="side-bar" id="sideBar">
+        <div id="Search" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/organic-search-icon.svg">
+            <div>
+                Search
+            </div>
+        </div>
+        <div id="Comics" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/open-book-icon.svg">
+            <div>
+                Comics
+            </div>
+        </div>
+        <div id="test" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            <div>
+                Test
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------- End --------------------------------------->
+    <main>
+        <div class="comic-chapters">
+            <div class="comic-thumbnail">
+                <h1 onclick="window.location.href = 'Chapter1.html'">Plastic 101</h1>
+                <img
+                    src="https://cdn.discordapp.com/attachments/1007674250892693664/1073971263988584551/PLASTIC_101.png">
+            </div>
+
+            <!-- Pre-test -->
+            <div onclick="Pretest()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img class="test-icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+                </div>
+                <div class="chapter-description">
+                    <h2>Pre-test : เเบบทดสอบเรื่องการเเก้ปัญหาขยะขวดพลาสติก </h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 1 -->
+            <div onclick="chap1()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/1007674250892693664/1073639351541579776/1676045946913.jpg">
+                </div>
+                <div class="chapter-description">
+                    <h1>#01</h1>
+                    <h2>Chapter 1 : ขวดพลาสติกกับการใช้เป็นบรรจุภัณฑ์</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 2 -->
+            <div onclick="chap2()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/1007674250892693664/1073639352636293180/1676045947022.jpg">
+                </div>
+                <div class="chapter-description">
+                    <h1>#02</h1>
+                    <h2>Chapter 2 : ขวดพลาสติก PE เเละ ขวดพลาสติก PET</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 3 -->
+            <div onclick="chap3()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/1007674250892693664/1073639352061673512/1676045947210.jpg">
+                </div>
+                <div class="chapter-description">
+                    <h1>#03</h1>
+                    <h2>Chapter 3 : ขวดพลาสติกชนิด PET</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 4 -->
+            <div onclick="chap4()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/1007674250892693664/1073639352309141574/1676045947103.jpg">
+                </div>
+                <div class="chapter-description">
+                    <h1>#04</h1>
+                    <h2>Chapter 4 : ขวดพลาสติกใช้เวลาย่อยสลายประมาณกี่ปี</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 5 -->
+            <div onclick="chap5()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/1007674250892693664/1073639351776464986/1676045947298.jpg">
+                </div>
+                <div class="chapter-description">
+                    <h1>#05</h1>
+                    <h2>Chapter 5 : การเเก้ปัญหาขยะขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 6 -->
+            <div onclick="chap6()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960616009662536/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#06</h1>
+                    <h2>Chapter 6 : ข้อดีของการรีไซเคิลขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 7 -->
+            <div onclick="chap7()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img
+                        src="https://media.discordapp.net/attachments/1007674250892693664/1073960616236167319/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#07</h1>
+                    <h2>Chapter 7 : ข้อดีของการรีไซเคิลขวดพลาสติก 2</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 8 -->
+            <div onclick="chap8()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960616487821402/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#08</h1>
+                    <h2>Chapter 8 : เรื่องน่ารู้เกี่ยวกับการรีไซเคิลขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 9 -->
+            <div onclick="chap9()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960616743665764/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#09</h1>
+                    <h2>Chapter 9 : กระบวนการรีไซเคิลขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Chapter 10 -->
+            <div onclick="chap10()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960617054056448/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#10</h1>
+                    <h2>Chapter 10 : การเเยกขยะขวดพลาสติกก่อนทิ้ง</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <!-- Post-test -->
+            <div onclick="Posttest()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img class="test-icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+                </div>
+                <div class="chapter-description">
+                    <h2>Post-test : เเบบทดสอบเรื่องการเเก้ปัญหาขยะขวดพลาสติก </h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="JS\search.js"></script>
+    <script src="JS\side-bar.js"></script>
+    <script src="JS\chapter.js"></script>
+</body>
+
+</html>

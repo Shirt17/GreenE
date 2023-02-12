@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <meta title="Plastic 101">
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Websites that give information about plastic bottles, recycling bottles, and ideas for recycling plastic bottles. ">
+    <meta name="keyword" content="ขยะขวดพลาสติก  ขวดพลาสติก หนังสือการ์ตูนความรู้ การ์ตูน  ">
+    <!-- Author -->
+    <meta name="Author" content="Shirt17">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS\HeaderSide.css">
+    <link rel="stylesheet" href="CSS\comic.css">
+    <link rel="stylesheet" href="CSS\Contents.css">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+    <title>GreenE.</title>
+</head>
+
+<body>
+    <!----------------------------------- HEADER  --------------===--------------------->
+    <div class="header">
+        <div class="left-section">
+            <div>
+                <button class="hamberger" id="hamberger" onclick="hamberger()"> <img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/hamburger-menu-icon.svg"></button>
+            </div>
+            <div id="iconLogo" class="iconLogo">
+                <div>
+                    <img class="icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+                </div>
+                <div>
+                    <p class="logo">GreenE.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!--------------------------------- SIDE-BAR  -------------------------------------->
+    <div class="side-bar" id="sideBar">
+        <div id="Search" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/organic-search-icon.svg">
+            <div>
+                Search
+            </div>
+        </div>
+        <div id="Comics" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/open-book-icon.svg">
+            <div>
+                Comics
+            </div>
+        </div>
+        <div id="test" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            <div>
+                Test
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!-------------------------------------- Contents ---------------------------------->
+    <div class="comic">
+
+        <h1>Chapter 7 : ข้อดีของการรีไซเคิลขวดพลาสติก 2</h1>
+        <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073964228454653982/image.png">
+        <div class="information">
+            <h2>
+                Q : ข้อดีของการรีไซเคิลขวดพลาสติก
+            </h2>
+            <p>
+                A : <br>1. ลดมลพิษที่เกิดขึ้นในสิ่งแวดล้อม <br>
+                2. ลดการใช้พลังงานและวัตถุดิบในการผลิตขวดพลาสติก <br>
+                3. เพิ่มพื้นที่ในการฝังกลบขยะ <br>
+                4. สร้างความตระหนักรู้เกี่ยวกับปัญหาขยะ <br>
+                5. ประหยัดเงินต้นทุนการผลิต
+
+            </p>
+        </div>
+
+        <!-- Page control -->
+        <div class="page">
+            <h1>Next :</h1>
+
+            <!-- Chapter 8 -->
+            <div onclick="chap8()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960616487821402/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#08</h1>
+                    <h2>Chapter 8 : เรื่องน่ารู้เกี่ยวกับการรีไซเคิลขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+
+            <h1>Previous :</h1>
+
+            <!-- Chapter 6 -->
+            <div onclick="chap6()" class="chapter">
+                <div class="chapter-thumbnail">
+                    <img src="https://cdn.discordapp.com/attachments/1007674250892693664/1073960616009662536/image.png">
+                </div>
+                <div class="chapter-description">
+                    <h1>#06</h1>
+                    <h2>Chapter 6 : ข้อดีของการรีไซเคิลขวดพลาสติก</h2>
+                    <p>FEB 10, 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------------- End --------------------------------------->
+    <script src="JS\search.js"></script>
+    <script src="JS\side-bar.js"></script>
+    <script src="JS/chapter.js"></script>
+</body>
+
+</html>

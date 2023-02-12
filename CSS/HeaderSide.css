@@ -1,0 +1,243 @@
+/******** BODY *********/
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 80px 30px 80px 100px;
+    background-color: #f5f5f9;
+}
+
+body p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/************** END ***************/
+
+/******** HEADER **************/
+.header {
+    z-index: 99;
+    background-color: white;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+}
+
+/************** END ***************/
+
+/******** HEADER : LEFT *********/
+.left-section {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.hamberger {
+    margin-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    background-color: transparent;
+    border-style: none;
+    transition: 400ms ease-in-out;
+}
+
+.hamberger img {
+    height: 25px;
+}
+
+.iconLogo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.logo {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgb(62, 124, 23);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+/************** END ***************/
+
+/******** HEADER : MIDDLE *********/
+.middle-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    margin-left: 30px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.middle-section .button-search img {
+    height: 20px;
+    margin-top: 5px;
+}
+
+.search {
+    flex: 1;
+    font-size: 16px;
+    height: 30px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.015);
+    border-radius: 0px;
+
+}
+
+.search::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.button-filter {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: transparent;
+    border-style: none;
+    margin-left: 10px;
+    transition: 400ms ease-in-out;
+}
+
+.button-filter img {
+    width: auto;
+    height: 25px;
+    margin-top: 5px;
+
+}
+
+.button-filter:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.button-filter:active {
+    opacity: 0.5;
+}
+
+/******** END *********/
+
+/******** HEADER : RIGHT *********/
+.right-section {
+    width: 225px;
+}
+
+/******** END *********/
+
+/******** SIDE BAR *********/
+.side-bar {
+    position: relative;
+    background-color: white;
+    width: 72px;
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    bottom: 0px;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(228, 228, 228);
+}
+
+/******** SIDE BAR : SIDE BOX *********/
+.side-box {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    transition: 300ms ease-in-out;
+
+}
+
+.side-box:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.side-box:active {
+    opacity: 0.7;
+}
+
+.side-box img {
+    margin-bottom: 7px;
+    width: 30px;
+
+
+}
+
+.side-box div {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/******** END *********/
+
+/******** MEDIA QUERY *********/
+@media (max-width: 500px) {
+    .side-bar {
+        display: none;
+    }
+
+    body {
+        padding-left: 30px;
+    }
+
+    .hamberger {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .middle-section {
+        margin-left: 10px;
+    }
+
+    .middle-section .button-search img {
+        height: 20px;
+        /* margin-top: 5px; */
+    }
+
+    .button-search {
+        width: 40px;
+    }
+
+    .search {
+        width: 60px;
+    }
+
+    .right-section {
+        width: 0px;
+    }
+}

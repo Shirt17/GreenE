@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <meta title="Bottles-recycling-ideas">
+    <!-- Meta Description -->
+    <meta name="description" content="Idea for recycling plastic bottoles or diy plastic bottles.">
+    <meta name="keyword" content="Plastic Bottles, Recycling, diy, Diy plastic bottles, Recycle plastic bottles">
+    <!-- Author -->
+    <meta name="Author" content="Shirt17">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="CSS\HeaderSide.css">
+    <link rel="stylesheet" href="CSS\Contents.css">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+    <title>GreenE.</title>
+</head>
+
+<body>
+    <!----------------------------------- HEADER  --------------===--------------------->
+    <nav class="header">
+        <div class="left-section">
+            <div>
+                <button class="hamberger" id="hamberger" onclick="hamberger()"> <img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/hamburger-menu-icon.svg"></button>
+            </div>
+            <div id="iconLogo" class="iconLogo">
+                <div>
+                    <img class="icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+                </div>
+                <div>
+                    <p class="logo">GreenE.</p>
+                </div>
+            </div>
+        </div>
+        <div class="middle-section">
+            <input id="search-input" class="search" type="text" placeholder="Search" onkeyup="search()">
+            <button class="button-filter"> <img
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/filters-icon.svg"
+                    onclick="filter()"></button>
+        </div>
+        <div class="right-section">
+        </div>
+    </nav>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!--------------------------------- SIDE-BAR  --------------------------------------->
+    <nav class="side-bar" id="sideBar">
+        <div id="Search" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/organic-search-icon.svg">
+            <div>
+                Search
+            </div>
+        </div>
+        <div id="Comics" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/open-book-icon.svg">
+            <div>
+                Comics
+            </div>
+        </div>
+        <div id="test" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            <div>
+                Test
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!------------------------------------- Button ----------------------------------->
+    <div class="button" id="button">
+        <button class="btd" onclick="filterobject('all')">All</button>
+        <button class="btd" onclick="filterobject('easy')">Easy</button>
+        <button class="btd" onclick="filterobject('medium')">Medium</button>
+        <button class="btd" onclick="filterobject('hard')">Hard</button>
+        <button class="btd" onclick="filterobject('big')">Big</button>
+        <button class="btd" onclick="filterobject('small')">Small</button>
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!------------------------------------- CONTENTS ----------------------------------->
+    <div class="grid">
+        <!-- Easy -->
+
+        <div class="column easy small"
+            onclick="window.open('https://www.thisiscolossal.com/2013/02/urban-vertical-garden-built-from-hundreds-of-recycled-soda-bottles/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://www.thisiscolossal.com/wp-content/uploads/2013/02/vertical-6.jpg"
+                    alt="Urban Vertical Garden">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Urban Vertical Garden</h1>
+                    <p class="date">FEBRUARY 20, 2013 </p>
+                    <p class="web">thisiscolossal &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.epbot.com/2012/03/dew-it-yourself-jewelry-stand.html', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://1.bp.blogspot.com/-ZRwmDZi5LSY/T3DnBPMy9kI/AAAAAAAAfYg/S_aOKiboyl8/s640/IMG_0689.jpg"
+                    alt="Jewelry Stand">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Jewelry Stand</h1>
+                    <p class="date">March 28, 2012</p>
+                    <p class="web">epbot &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('http://alphamom.com/family-fun/holidays/cherry-blossom-art-from-a-recycled-soda-bottle/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://alphamom.com/wp-content/uploads/2014/05/cherry-blossom-art-soda-bottle.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg"
+                        alt="Cherry Blossom Art">
+                </div>
+                <div class="description">
+                    <h1 class="title">Cherry Blossom Art</h1>
+                    <p class="date"><br></p>
+                    <p class="web">alphamom &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick=" window.open('https://www.wikihow.com/Make-a-Vase-out-of-a-Plastic-Bottle', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.wikihow.com/images/thumb/8/84/Make-a-Vase-out-of-a-Plastic-Bottle-Step-13.jpg/aid554488-v4-728px-Make-a-Vase-out-of-a-Plastic-Bottle-Step-13.jpg.webp"
+                    alt="Intricate Bottle Vase">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Intricate Bottle Vase</h1>
+                    <p class="date">November 6, 2022 </p>
+                    <p class="web">Wikihow &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.flickr.com/photos/miulein/437902193/sizes/l', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.boredpanda.com/blog/wp-content/uploads/2014/07/plastic-bottles-recycling-ideas-52-3.jpg"
+                    alt="Durable Purse">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Durable Purse</h1>
+                    <p class="date"> <br></p>
+                    <p class="web">flickr &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.doodlecraftblog.com/2019/07/super-sci-fi-rocket-fueled-jet-pack.html', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://1.bp.blogspot.com/-8ZGQp2_3yZ0/XSVfEbymvAI/AAAAAAABf60/DI4dPapk_g0b2haQhKId2tP9hWHUqckxQCEwYBhgL/s1600/diy%2Bsoda%2Bbottle%2Brocket%2Bjet%2Bpacks%2Bfun%2Bcheap%2Bupcycle%2Blittle%2Bboy%2Bkids%2Bcraft%2Bfun%2Bimagination%2B%25281%2529-min.JPG"
+                    alt="Sci-Fi Rocket Jet Pack">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Sci-Fi Rocket Jet Pack</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">doodlecraft &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://tock.earth/crafts-plastic-bottle-piggy-bank/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://tock.earth/wp-content/uploads/2020/05/craft-piggy-bank-11.jpg"
+                    alt="Plastic Bottle Piggy Bank">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Plastic Bottle Piggy Bank</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">tock.earth &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick=" window.open('https://makeit-loveit.com/no-sew-zipper-cases-from-old-soda-or-water-bottles', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://makeit-loveit.com/wp-content/uploads/2015/01/No-Sew-Zipper-Cases-from-old-SODA-or-water-BOTTLES-1.jpg"
+                    alt="NO-SEW ZIPPER CASES">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">NO-SEW ZIPPER CASES</h1>
+                    <p class="date">JANUARY 15, 2015</p>
+                    <p class="web">makeit-loveit &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.cravingsomecreativity.com/soda-bottle-animal-planters/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.cravingsomecreativity.com/wp-content/uploads/2018/06/soda-bottle-animal-planters.jpg"
+                    alt="FLOWERPOTS">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">FLOWERPOTS</h1>
+                    <p class="date"> MAY 24, 2021 </p>
+                    <p class="web">cravingsomecreativity &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.rspb.org.uk/fun-and-learning/for-kids/games-and-activities/activities/make-a-recycled-bird-feeder/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.bienenstockplaygrounds.com/wp-content/uploads/2021/11/19301176562_9e323a54ac_z-600x600.jpg"
+                    alt="a bird feeder">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">a bird feeder</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">rspb &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://foshbottle.com/blogs/fosh/60-ways-to-reuse-plastic-bottles', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://cdn.shopify.com/s/files/1/3007/2766/files/pop_bottle_terrarium_480x480.webp?v=1672781338"
+                    alt="Terrarium">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Terrarium</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">Education &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.icreativeideas.com/diy-how-to-seal-a-plastic-bag-using-plastic-bottle-cap/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://cdn.shopify.com/s/files/1/3007/2766/files/plastic_bag_sealer_480x480.webp?v=1672781395"
+                    alt="Bottle Top Bag Seal">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Bottle Top Bag Seal</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">icreativeideas &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small" onclick="window.open('https://pin.it/7dQFAZ0', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.pinimg.com/564x/a2/25/92/a22592e7418bb51a71542bff61327189.jpg"
+                    alt="Watering Containers">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Watering Containers</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">megagro &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.muminthemadhouse.com/pl-bottle-wind-spiral-mobile/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.muminthemadhouse.com/wp-content/uploads/2017/03/Plastic-Bottle-Wind-Spiral-Mobile-Square.png"
+                    alt="Wind Spiral">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Wind Spiral </h1>
+                    <p class="date"> March 15, 2017</p>
+                    <p class="web">The Mad House &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.goodhousekeeping.com/home/craft-ideas/a43629/upcycled-soda-bottle-planters/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/14/1491529922-soda-bottle-planters-pinterest.jpg?resize=640:*"
+                    alt="Animal Planters ">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Animal Planters </h1>
+                    <p class="date">APRIL 8, 2017s</p>
+                    <p class="web">GoodHousekeeping &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small" onclick="window.open('https://pin.it/7fPDI0P', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.pinimg.com/564x/b3/00/9d/b3009d2c0d4afa420146f3267e50eba6.jpg"
+                    alt="Cup-and-ball">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Cup-and-ball</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">Pinterest &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.wikihow.com/Make-a-Bottle-Watering-Can', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.wikihow.com/images/thumb/1/12/Make-a-Bottle-Watering-Can-Step-7-Version-2.jpg/aid232220-v4-728px-Make-a-Bottle-Watering-Can-Step-7-Version-2.jpg.webp"
+                    alt="Basic Watering Can">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Basic Watering Can</h1>
+                    <p class="date">January 7, 2023 </p>
+                    <p class="web">Wikihow &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.pinterest.co.uk/pin/39617671706690914/?lp=true', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.pinimg.com/564x/69/d4/03/69d403b1b3a67cbe382097f03a8f78ec.jpg"
+                    alt="Bottle Scoop">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Bottle Scoop </h1>
+                    <p class="date"> August 13, 2012 </p>
+                    <p class="web">Pinterest &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('http://thecatpinky.blogspot.com/2010/11/new-home-made-cat-toy.html', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="http://4.bp.blogspot.com/_HxWt6uUmK_U/TPGWax4ifOI/AAAAAAAAA4A/ijiRoYu7uFg/s320/IMG_6921.JPG"
+                    alt="Cat Toy ">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Cat Toy </h1>
+                    <p class="date"> NOVEMBER 27, 2010 </p>
+                    <p class="web"> All Things Pink &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.budgetdumpster.com/blog/diy-plastic-bottles-recycling/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.budgetdumpster.com/blog/wp-content/uploads/2014/11/coffee-creamer-recycling.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Coffee Cream Containers </h1>
+                    <p class="date"> SEPTEMBER 30, 2021 </p>
+                    <p class="web"> budgetdumpster &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.budgetdumpster.com/blog/diy-plastic-bottles-recycling/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.budgetdumpster.com/blog/wp-content/uploads/2014/11/plastic-bottle-diy-piggy-bank.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Piggy Bank </h1>
+                    <p class="date"> SEPTEMBER 30, 2021 </p>
+                    <p class="web"> budgetdumpster &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://theimaginationtree.com/homemade-rain-gauge/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://theimaginationtree.com/wp-content/uploads/2012/04/IMG_4397.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">RAIN GAUGE </h1>
+                    <p class="date">April 27, 2012</p>
+                    <p class="web">theimaginationtree &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('http://shinekidscrafts.blogspot.com/2013/07/plastic-bottle-recycling-eating-utensil.html', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="http://4.bp.blogspot.com/-3wuRZkT6FUI/UekNXWpOWAI/AAAAAAAAC6c/D0wprcP1PCY/s320/IMG_6033.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Pencil Holder </h1>
+                    <p class="date">July 19, 2013</p>
+                    <p class="web">shinekidscrafts &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('http://shinekidscrafts.blogspot.com/2013/07/plastic-bottle-recycling-eating-utensil.html', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://icreativeideas.com/wp-content/uploads/2014/08/How-to-DIY-Snowflake-Ornaments-from-Plastic-Bottles.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Snowflake Ornaments</h1>
+                    <p class="date"> <br></p>
+                    <p class="web">icreativeideas &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.guideastuces.com/A11949-Pots-a-crayons-monstres-avec-des-bouteilles-de-shampoing', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.guideastuces.com/image_upload/7d32c7dbf49c988b4b51bc8d1d58a347/1430321385_0.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Monster pencil pots</h1>
+                    <p class="date">May 2, 2015</p>
+                    <p class="web">guideastuces &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.thebetterindia.com/58509/reuse-plastic-bottles-reduce-pollution-waste/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://en-media.thebetterindia.com/uploads/2016/06/httpwww.socreativethings.comwp-contentuploads201305Reusing-plastic-bottles-9.jpg?compress=true&quality=80&w=768&dpr=1.3">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Magazine Rack
+                    </h1>
+                    <p class="date">June 16, 2016</p>
+                    <p class="web">thebetterindia &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.thebetterindia.com/58509/reuse-plastic-bottles-reduce-pollution-waste/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://en-media.thebetterindia.com/uploads/2016/06/vertical.jpg?compress=true&quality=80&w=768&dpr=1.3">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Vertical Hanging Garden
+                    </h1>
+                    <p class="date">June 16, 2016</p>
+                    <p class="web">thebetterindia &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column easy small"
+            onclick="window.open('https://www.thebetterindia.com/58509/reuse-plastic-bottles-reduce-pollution-waste/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://en-media.thebetterindia.com/uploads/2016/06/pet-feeder.jpg?compress=true&quality=80&w=768&dpr=1.3">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/low-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Pet Feeder
+                    </h1>
+                    <p class="date">June 16, 2016</p>
+                    <p class="web">thebetterindia &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- End -->
+
+
+        <!--  Medium-->
+        <div class="column medium big"
+            onclick="window.open('https://www.boredpanda.com/creative-diy-lamp-chandelier-lighting-ideas/?utm_source=google&utm_medium=organic&utm_campaign=organic', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://static.boredpanda.com/blog/wp-content/uploads/2014/05/creative-diy-lamps-chandeliers-6-3.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Spoon Lamp</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">boredpanda &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column medium small" onclick="window.open('http://stranamasterov.ru/node/111110', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://stranamasterov.ru/img/i2010/11/11/ris10_gotovoe_izdelie_3.jpg?m=1289498990">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Christmas Tree</h1>
+                    <p class="date"> NOVEMBER 11, 2010</p>
+                    <p class="web"> stranamasterov &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column medium small"
+            onclick="window.open('https://www.muminthemadhouse.com/diy-garden-lantern-plastic-bottle/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.muminthemadhouse.com/wp-content/uploads/2016/05/DIy-Garden-lantern.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Garden lantern</h1>
+                    <p class="date">May 9, 2016 </p>
+                    <p class="web">muminthemadhouse &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column medium small"
+            onclick="window.open('https://www.hometalk.com/posts/decorate/rooms/fairy-house-lamp-using-plastic-bottles-29738422', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://cdn-fastly.hometalk.com/media/2017/06/14/3891039/fairy-house-lamp-using-plastic-bottles.jpg?size=720x845&nocrop=1">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Fairy House Lamp</h1>
+                    <p class="date"><br></p>
+                    <p class="web">hometalks &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column medium small"
+            onclick="window.open('https://wonderfuldiy.com/wonderful-diy-funny-hedgehogs-for-your-garden/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://cdn.wonderfuldiy.com/wp-content/uploads/2014/04/Hedgehog-Planter-from-Plastic-Bottle-M.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title"> Garden Hedgehogs</h1>
+                    <p class="date"> <br></p>
+                    <p class="web">wonderfuldiy &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column medium small"
+            onclick="window.open('https://diyprojects.ideas2live4.com/2014/10/23/solar-water-bulb/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://diyprojects.ideas2live4.com/wp-content/uploads/sites/5/2014/10/SolarWaterBulb6.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/medium-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Solar Water Bulb</h1>
+                    <p class="date">October 23, 2014</p>
+                    <p class="web">diyprojects.ideas2live4 &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+
+        <!-- Hard -->
+        <div class="column hard big"
+            onclick="window.open('https://www.behance.net/gallery/%28POP%29culture/3874285', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3dfa9730182513.560572fa6ee9b.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Parking Canopy</h1>
+                    <p class="date"> <br></p>
+                    <p class="web">behance &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big" onclick="window.open('https://www.michellebrand.co.uk/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.michellebrand.co.uk/wp-content/uploads/2012/06/michelle+cascade-lancashire-199x300.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Hanging Chandelier</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">Michellebrand &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big"
+            onclick="window.open('https://www.flickr.com/photos/fijimetour/5163354542/sizes/l', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://live.staticflickr.com/1075/5163354542_1140dd90b0_b.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Lake Boat</h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">flickr &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big"
+            onclick="window.open('https://icreativeideas.com/how-to-diy-simple-ottoman-from-plastic-bottles/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://icreativeideas.com/wp-content/uploads/2014/06/How-to-DIY-Simple-Ottoman-from-Plastic-Bottles-7.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Simple Ottoman </h1>
+                    <p class="date"> <br> </p>
+                    <p class="web">icreativeideas &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big"
+            onclick="window.open('https://www.budgetdumpster.com/blog/diy-plastic-bottles-recycling/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://www.budgetdumpster.com/blog/wp-content/uploads/2014/11/trash-can-made-from-trash.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Trash Can</h1>
+                    <p class="date"> SEPTEMBER 30, 2021 </p>
+                    <p class="web"> budgetdumpster &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big"
+            onclick="window.open('https://diyprojects.ideas2live4.com/2015/10/08/how-to-build-your-own-recycled-plastic-bottle-greenhouse/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://diyprojects.ideas2live4.com/wp-content/uploads/sites/5/2015/10/Plastic-Bottle-Greenhouse-Main-Image.jpg">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+                </div>
+                <div class="description">
+                    <h1 class="title">Greenhouse</h1>
+                    <p class="date">October 8, 2015</p>
+                    <p class="web"> diyprojects.ideas2live4 &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column hard big"
+            onclick="window.open('https://www.thebetterindia.com/58509/reuse-plastic-bottles-reduce-pollution-waste/', '_blank')">
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://en-media.thebetterindia.com/uploads/2016/06/IMG_0299.jpg?compress=true&quality=80&w=768&dpr=1.3">
+            </div>
+            <div class="info-grid">
+                <div class="emoji">
+                    <img class="emojipic"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/high-risk-icon.svg">
+
+                </div>
+                <div class="description">
+                    <h1 class="title">Bottle Cap Mosaic</h1>
+                    <p class="date"> June 16, 2016</p>
+                    <p class="web">thebetterindia &#10003;</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End -->
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="JS\search.js"></script>
+    <script src="JS\side-bar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS\HeaderSide.css">
+    <link rel="stylesheet" href="CSS\comic.css">
+    <link rel="stylesheet" href="CSS\Contents.css">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+    <title>GreenE.</title>
+</head>
+
+<body>
+    <!----------------------------------- HEADER  --------------===--------------------->
+    <div class="header">
+        <div class="left-section">
+            <div>
+                <button class="hamberger" id="hamberger" onclick="hamberger()"> <img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/hamburger-menu-icon.svg"></button>
+            </div>
+            <div id="iconLogo" class="iconLogo">
+                <div>
+                    <img class="icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/environment-icon.svg">
+                </div>
+                <div>
+                    <p class="logo">GreenE.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!--------------------------------- SIDE-BAR  --------------------------------------->
+    <nav class="side-bar" id="sideBar">
+        <div id="Search" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/seo-marketing/organic-search-icon.svg">
+            <div>
+                Search
+            </div>
+        </div>
+        <div id="Comics" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/open-book-icon.svg">
+            <div>
+                Comics
+            </div>
+        </div>
+        <div id="test" class="side-box">
+            <img class="side-icon"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            <div>
+                Test
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------- End --------------------------------------->
+
+    <!-------------------------------------- Test --------------------------------------->
+    <div class="comic-chapters">
+
+        <!-- Pre-test -->
+        <div onclick="Pretest()" class="chapter">
+            <div class="chapter-thumbnail">
+                <img class="test-icon"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            </div>
+            <div class="chapter-description">
+                <h2>Pre-test : เเบบทดสอบเรื่องการเเก้ปัญหาขยะขวดพลาสติก </h2>
+                <p>FEB 10, 2022</p>
+            </div>
+
+
+        </div>
+
+        <!-- Post-test -->
+        <div onclick="Posttest()" class="chapter">
+            <div class="chapter-thumbnail">
+                <img class="test-icon"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/writing-pad-clipboard-icon.svg">
+            </div>
+            <div class="chapter-description">
+                <h2>Post-test : เเบบทดสอบเรื่องการเเก้ปัญหาขยะขวดพลาสติก </h2>
+                <p>FEB 10, 2022</p>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------------------- End --------------------------------------->
+
+    <script src="JS\search.js"></script>
+    <script src="JS\side-bar.js"></script>
+    <script src="JS/chapter.js"></script>
+    <script>
+        var PreTest = document.getElementById("pre-test");
+        var PostTest = document.getElementById("post-test");
+
+
+        PreTest.addEventListener("click", function () {
+            window.open("https://forms.gle/5h5mMjpw3EVKRV3U7", "_blank")
+        });
+        PostTest.addEventListener("click", function () {
+            window.open("https://forms.gle/Bivnz2KaEi89uSCu9", "_blank")
+        });
+    </script>
+
+</body>
+
+</html>
